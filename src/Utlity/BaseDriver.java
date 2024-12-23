@@ -22,6 +22,7 @@ public class BaseDriver {
 
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+
     }
 
 
